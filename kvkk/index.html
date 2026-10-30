@@ -31,7 +31,7 @@
 <section>
 <h2>İşlenen Kişisel Veri Kategorileri</h2>
 <p>Uygulamada işlenebilen veriler kimlik ve iletişim, hesap ve güvenlik, cihaz ve bildirim, konum, fotoğraf ve belge ile pet kayıtları ve sosyal etkileşim başlıklarında toplanır. Ayrıntılar aşağıdaki bölümlerde, uygulamada gerçekten bulunan alanlara göre açıklanır.</p>
-<p>Ayrı bir çökme izleme hizmeti kullanılmamaktadır. Facebook uygulama kimliği ve istemci belirteci tanımlıysa Meta SDK, uygulama kurulumu ve açılış olaylarını reklam ölçümü için Meta’ya iletir. iOS’ta bu ölçüm için izin istenir. Başvuru veya destek kaydı tutan ayrı bir sistem bulunmamaktadır. IP adresi kalıcı bir kullanıcı kaydı olarak saklanmaz; yalnızca belirli isteklerde hız sınırını uygulamak için o anki bağlantıda kullanılır.</p>
+<p>Ayrı bir çökme izleme hizmeti kullanılmamaktadır. Facebook uygulama kimliği ve istemci belirteci tanımlıysa Meta SDK, uygulama kurulumu ve açılış olaylarını reklam ölçümü için Meta’ya iletir. iOS’ta bu ölçüm için izin istenir. İzin verilmezse reklam takibi kapalı kalır. Başvuru veya destek kaydı tutan ayrı bir sistem bulunmamaktadır. IP adresi kalıcı bir kullanıcı kaydı olarak saklanmaz; yalnızca belirli isteklerde hız sınırını uygulamak için o anki bağlantıda kullanılır.</p>
 </section>
 <section>
 <h2>Kimlik ve İletişim Verileri</h2>
@@ -91,11 +91,11 @@
 <p>Apple, Google veya Facebook ile girişte kimlik doğrulama ilgili sağlayıcıya gider. Facebook yazılım kiti, Facebook uygulama kimliği tanımlıysa uygulamaya eklenir.</p>
 <p>Veteriner araması OpenStreetMap Overpass ve Nominatim’e, harita görüntüleri OpenFreeMap’e gider. Sosyal konum araması, Google Places anahtarı tanımlıysa Google’a, değilse Nominatim’e gider. Keşfet’teki videolar YouTube’un gömülü oynatıcısıyla oynatıldığından, oynatıcı ve video küçük resimleri açıldığında cihazınız YouTube (Google) sunucularına bağlanır ve IP adresiniz gibi bağlantı bilgileri YouTube’a iletilir.</p>
 <p>Paylaştığınız herkese açık pet ve gönderi, uygulamadaki diğer kullanıcılara görünür. Yasal bir zorunluluk olduğunda yetkili kurum ve kuruluşlara paylaşım yapılabilir.</p>
-<p>Ayrı bir çökme izleme hizmetine aktarım yapılmamaktadır. Facebook uygulama kimliği ve istemci belirteci tanımlıysa uygulama kurulumu ve açılış olayları reklam ölçümü için Meta’ya aktarılır. iOS’ta bu aktarım için izin istenir.</p>
+<p>Ayrı bir çökme izleme hizmetine aktarım yapılmamaktadır. Facebook uygulama kimliği ve istemci belirteci tanımlıysa uygulama kurulumu ve açılış olayları reklam ölçümü için Meta’ya aktarılır. iOS’ta bu aktarım için izin istenir. İzin verilmezse reklam takibi kapalı kalır.</p>
 </section>
 <section>
 <h2>Yurt Dışına Veri Aktarımı</h2>
-<p>Cloudflare R2, Expo, Apple, Google (YouTube dahil) ve OpenStreetMap’in kamuya açık servisleri ile OpenFreeMap, veriyi Türkiye dışında işleyebilir. Facebook ile giriş kullanıldığında ve Facebook yapılandırması açıkken Facebook da bu kapsamdadır. Facebook yapılandırması açıkken Meta SDK’nın ilettiği uygulama kurulumu ve açılış olayları da Meta’nın yurt dışındaki sunucularında işlenir; iOS’ta bunun için izin istenir. Google Places anahtarı tanımlıysa sosyal konum araması da yurt dışı aktarım içerebilir. SMTP hizmetinin sunucusu yurt dışında olabilir.</p>
+<p>Cloudflare R2, Expo, Apple, Google (YouTube dahil) ve OpenStreetMap’in kamuya açık servisleri ile OpenFreeMap, veriyi Türkiye dışında işleyebilir. Facebook ile giriş kullanıldığında ve Facebook yapılandırması açıkken Facebook da bu kapsamdadır. Facebook yapılandırması açıkken Meta SDK’nın ilettiği uygulama kurulumu ve açılış olayları da Meta’nın yurt dışındaki sunucularında işlenir; iOS’ta bunun için izin istenir. İzin verilmezse reklam takibi kapalı kalır. Google Places anahtarı tanımlıysa sosyal konum araması da yurt dışı aktarım içerebilir. SMTP hizmetinin sunucusu yurt dışında olabilir.</p>
 <p>Yurt dışına veri aktarımının söz konusu olduğu durumlarda ilgili aktarımın KVKK’nın 9. maddesi ve uygulanabilir ikincil düzenlemelerde öngörülen aktarım şartlarına uygun şekilde gerçekleştirilmesi amaçlanır.</p>
 </section>
 <section>
